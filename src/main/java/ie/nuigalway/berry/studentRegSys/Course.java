@@ -58,7 +58,7 @@ public class Course {
         for(int i=0; i<getStudents().size(); i++){
                     students += getStudents().get(i).getName() + ", ";
         }
-        return "Course: " + Name + "\nStart Date: " + StartDate + "\tEnd Date: " + EndDate +
+        return "Course: " + Name + "\tStart Date: " + StartDate + "\tEnd Date: " + EndDate +
                 "\tModules: " +  modules +
                 "\tStudents: " + students;
     }
