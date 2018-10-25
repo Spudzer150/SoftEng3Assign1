@@ -81,11 +81,12 @@ public class Student {
 	
 	 @Override public String toString(){
 	        String course = getCourse().getName();
+	        String username = getUsername();
 	        String modules = new String();
 	        for(int i=0; i<getModules().size(); i++){
 	                    modules += getModules().get(i).getName() + ", ";
 	        }
-	        return "Student: " + this.Name + "\tID: " + Integer.toString(ID) +
+	        return "Student: " + this.Name + "\tID: " + Integer.toString(ID) + username +
 	                "\tCourse: " +  course +
 	                "\tModules: " + modules;
 	    }

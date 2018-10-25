@@ -62,6 +62,6 @@ public class Course {
         }
         return "Course: " + Name + "\tStart Date: " + StartDate + "\tEnd Date: " + EndDate +
                 "\tModules: " +  modules +
-                "\tStudents: " + students;
+                "\tStudents: " + students  + "\n";
     }
 }
