@@ -6,12 +6,14 @@ public class Module {
 	
 	private String Name;
 	private int ID;
-	private  ArrayList<Student> Students = new ArrayList<Student>();
-	private ArrayList<Course> Courses = new ArrayList<Course>();
+	private  ArrayList<Student> Students;
+	private ArrayList<Course> Courses;
 	
 	public Module(String name, int id){
         this.Name = name;
         this.ID = id;
+        this.Courses = new ArrayList<Course>();
+        this.Students = new ArrayList<Student>();
     }
 
 	public String getName() {
