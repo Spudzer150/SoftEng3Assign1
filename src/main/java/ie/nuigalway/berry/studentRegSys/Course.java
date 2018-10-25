@@ -7,8 +7,8 @@ import org.joda.time.LocalDate;
 public class Course {
 	
 	private String Name;
-	private ArrayList<Module> Modules = new ArrayList<Module>();
-	private ArrayList<Student> Students = new ArrayList<Student>();
+	private ArrayList<Module> Modules;
+	private ArrayList<Student> Students;
 	private LocalDate StartDate;
 	private LocalDate EndDate;
 	
@@ -16,6 +16,8 @@ public class Course {
 		this.Name = name;
 		this.StartDate = start;
 		this.EndDate = end;
+		this.Modules = new ArrayList<Module>();
+		this.Students = new ArrayList<Student>();
 	}
 	
 	public String getName() {
