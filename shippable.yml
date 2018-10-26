@@ -1,5 +1,7 @@
 language: java
 name: SoftEng3Assign1_runCI
 type: runCI
+jdk:
+- oraclejdk8
 steps:
   - IN: SoftEng3Assign1_ciRepo
