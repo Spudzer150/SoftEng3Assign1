@@ -86,7 +86,7 @@ public class Student {
 	        for(int i=0; i<getModules().size(); i++){
 	                    modules += getModules().get(i).getName() + ", ";
 	        }
-	        return "Student: " + this.Name + "\tID: " + Integer.toString(ID) + username +
+	        return "Student: " + this.Name + "\tID: " + Integer.toString(ID) + "\tUsername: " + username +
 	                "\tCourse: " +  course +
 	                "\tModules: " + modules;
 	    }
